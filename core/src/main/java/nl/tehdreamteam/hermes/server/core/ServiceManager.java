@@ -1,6 +1,6 @@
 package nl.tehdreamteam.hermes.server.core;
 
-public interface ServiceManager {
+public interface ServiceManager extends ServiceLocator {
 
-    void registerService(Service service);
+    void registerService(String name, Service service);
 }
