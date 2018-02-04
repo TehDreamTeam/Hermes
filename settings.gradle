@@ -1,4 +1,4 @@
-rootProject.name = 'Hermes'
+rootProject.name = 'Hermes-Server'
 
 include ':main'
 include ':core'

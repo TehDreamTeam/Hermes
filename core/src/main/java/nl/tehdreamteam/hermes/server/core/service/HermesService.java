@@ -1,6 +1,6 @@
-package nl.tehdreamteam.hermes.core.service;
+package nl.tehdreamteam.hermes.server.core.service;
 
-import nl.tehdreamteam.hermes.core.Service;
+import nl.tehdreamteam.hermes.server.core.Service;
 
 public class HermesService implements Service {
 

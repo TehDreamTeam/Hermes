@@ -1,11 +1,11 @@
-package nl.tehdreamteam.hermes.main;
+package nl.tehdreamteam.hermes.server.main;
 
-import nl.tehdreamteam.hermes.core.HermesServer;
-import nl.tehdreamteam.hermes.core.Service;
-import nl.tehdreamteam.hermes.core.ServiceLocator;
-import nl.tehdreamteam.hermes.core.grizzly.GrizzlyHermesServer;
-import nl.tehdreamteam.hermes.core.handler.LocateServiceHandler;
-import nl.tehdreamteam.hermes.core.service.HermesService;
+import nl.tehdreamteam.hermes.server.core.HermesServer;
+import nl.tehdreamteam.hermes.server.core.Service;
+import nl.tehdreamteam.hermes.server.core.ServiceLocator;
+import nl.tehdreamteam.hermes.server.core.grizzly.GrizzlyHermesServer;
+import nl.tehdreamteam.hermes.server.core.handler.LocateServiceHandler;
+import nl.tehdreamteam.hermes.server.core.service.HermesService;
 import org.glassfish.grizzly.http.server.HttpHandler;
 
 import java.io.IOException;

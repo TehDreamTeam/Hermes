@@ -1,4 +1,4 @@
-package nl.tehdreamteam.hermes.core;
+package nl.tehdreamteam.hermes.server.core;
 
 import org.glassfish.grizzly.http.server.HttpHandler;
 

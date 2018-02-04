@@ -1,6 +1,6 @@
-package nl.tehdreamteam.hermes.core.grizzly;
+package nl.tehdreamteam.hermes.server.core.grizzly;
 
-import nl.tehdreamteam.hermes.core.HermesServer;
+import nl.tehdreamteam.hermes.server.core.HermesServer;
 import org.glassfish.grizzly.http.server.HttpHandler;
 import org.glassfish.grizzly.http.server.HttpServer;
 

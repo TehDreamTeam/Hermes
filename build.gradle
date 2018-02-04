@@ -1,5 +1,5 @@
 allprojects {
-    group = 'nl.tehdreamteam.hermes'
+    group = 'nl.tehdreamteam.hermes-server'
     version = '0.0.0'
 }
 
