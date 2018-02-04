@@ -9,14 +9,16 @@ import java.io.IOException;
 public class GrizzlyHermesServer implements HermesServer {
 
     private HttpServer server;
+    private String docRoot;
 
-    public GrizzlyHermesServer(int port) {
-        server = HttpServer.createSimpleServer("/hermes", port);
+    public GrizzlyHermesServer(String docRoot, int port) {
+        this.docRoot = docRoot;
+        server = HttpServer.createSimpleServer(docRoot, port);
     }
 
     @Override
     public void addHandler(HttpHandler handler) {
-        addHandler(handler, "/");
+        addHandler(handler, docRoot);
     }
 
     @Override
